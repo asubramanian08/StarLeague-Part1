@@ -1,7 +1,3 @@
-// Start:
-// Think:
-// Write:
-// Debug:
 #include <iostream>
 using namespace std;
 
