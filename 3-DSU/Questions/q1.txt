@@ -1,0 +1,34 @@
+Cycle Detection (Starleague Training Problem)
+
+A cycle in a graph is a non-empty trail in which the only repeated vertices are the first and last vertices.
+
+Make a program to determine if a graph with N (1 <= N <= 100,000) and M (1 <= M  <= 100,000) has a cycle. There 
+is no parallel edge and self-loop in the graph. One edge may appear several times in the input.
+
+
+INPUT FORMAT (file cycle.in):
+
+Line 1: N and M
+Line 2 to M+1: Two integer u and v; there is a direct connection between u and v (1 <= u, v <= N).
+
+
+OUTPUT FORMAT (file cycle.out):
+
+"YES" or "NO".
+
+
+SAMPLE INPUT
+
+8 6
+1 2
+3 5
+5 4
+6 4
+3 4
+6 7
+
+
+SAMPLE OUTPUT
+
+YES
+Problem Credits: Osman Ay

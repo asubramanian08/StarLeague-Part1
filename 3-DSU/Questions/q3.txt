@@ -1,0 +1,29 @@
+Chess Teams (Starleague Training Problem)
+
+On long Cowid-19 days, Farmer John's cows spend their time playing chess. The cows created two chess teams 
+"Barley" and "oat" for a new tournament. Some cows joined to team Barley and some cows to team Oat.
+
+In the tournament some cows from two different teams play N (1 <= N <= 10,000) chess games. In each game one of 
+the cows is selected from team Barley and the other cow is selected from team Oat.
+
+Each cow has a unique ID between 1 and 1000,000,000. The list of all the games is available. Calculate at most 
+how many cows can be member of the larger team.
+
+
+INPUT FORMAT (file chess.in)
+
+Line 1: N
+
+Line 2 to N+1: Two integers representing ID's of two cows for one game. One cow may play several games and also 
+the same pair of cows may play several games.
+
+
+OUTPUT FORMAT (file chess.out)
+
+An integer that is the possible maximum number of cows in the larger team.
+
+Problem Credits: Osman Ay
+For example:
+
+Result
+5

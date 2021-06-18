@@ -1,0 +1,39 @@
+Largest Component (Starleague Training Problem)
+
+Calculate the size of the largest connected component of a growing graph with N (1 <= N <= 10,000) nodes. At the beginning graph has no edges. The M (0 <= M <= 10,000) edges will be added one by one. Print the size of the largest connected component after adding each edge.
+
+
+INPUT FORMAT (file component.in):
+
+Line 1: N and M
+Line 2: N space separated unique integers denoting ID's of the nodes. 
+Line 3 to M+2: Two integers u and v (-1000,000,000 <= u, v <= 1000,000,000 and u != v) representing an edge between the node u and node v. There is no duplicate edge.
+
+
+OUTPUT FORMAT (file component.out):
+
+Line 1 to M: Line i contains an integer that that is the size of the largest connected component after adding edge i.
+
+
+SAMPLE INPUT
+
+5 6
+1 -5 6 20 -10
+1 -5
+6 -10
+20 6
+-10 20
+1 6
+-5 6
+
+
+SAMPLE OUTPUT
+
+1
+2
+2
+3
+3
+5
+5
+Problem Credits: Osman Ay
