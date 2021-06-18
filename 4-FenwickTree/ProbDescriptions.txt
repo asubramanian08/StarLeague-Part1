@@ -1,0 +1,4 @@
+Sleepwalking Cows | Starleague Training Problem
+Balanced Photo | USACO-G-JAN2017
+Haircut  | USACO-G-OPEN2020
+Why Did the Cow Cross the Road III | USACO-G-FEB2017
