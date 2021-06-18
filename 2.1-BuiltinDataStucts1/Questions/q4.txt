@@ -1,0 +1,23 @@
+Arithmetic Expression Evaluator (Starleague Training Problem)
+
+Evaluate an arithmetic expression represented by a string. Expression can contain parentheses. Parentheses are 
+well-matched.
+
+Expression may contain only three binary operations: +, - and *. There can be space between the operators, 
+parentheses and numbers.
+
+
+INPUT FORMAT (file expression.in)
+
+A string with the L (1 <= L <= 10,000) characters representing the arithmetic expression. The numbers are in the 
+range 1 ... 100 in the expression.
+
+
+OUTPUT FORMAT (file expression.out)
+
+An integer that is the result of the expression. Output the answer modulo 1000000007 (10^9 + 7).
+Problem Credits: Osman Ay
+For example:
+
+Input	                            Result
+2*(2*(2*2*(2*( 3+5 )))*(30 - 29))   256

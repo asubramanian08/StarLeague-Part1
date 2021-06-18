@@ -1,0 +1,4 @@
+Artificial Lake | USACO-G-JAN2008 | Simulation with a list
+Milking Queue  | Starleague Training Problem | Simulation with a queue
+Maximum Area Submatrix 1 | Starleague Training Problem | Largest rectangular area under histogram
+Arithmetic Expression Evaluator | Starleague Training Problem | Stack application
