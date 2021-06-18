@@ -1,0 +1,4 @@
+Total Flow | USACO-S-JAN2009 | Simulation
+Music Notes | USACO-B-DEC2009 | Binary Search
+Moocast | USACO-S-DEC2016 | Connected Components
+Load Balancing | USACO-S-FEB2016 | Sweep Line
