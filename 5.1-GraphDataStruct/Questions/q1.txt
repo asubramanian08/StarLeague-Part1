@@ -1,0 +1,31 @@
+Dividing the Farm (Starleague Training Problem)
+
+There are N (2 <= N <= 4000) pastures connected with M (1 <= M <= 5000) bidirectional roads in Farmer John's farm. 
+Pastures are conveniently numbered 1 ... N. It is always possible to travel between any two pastures.
+
+Since driving lots of cows in the pastures is hard work, Farmer John wants to block one of the roads and split 
+pastures into two parts. At the same time he wants to minimize the difference of the total capacities of those 
+two parts.
+
+What is the minimum difference Farmer John can obtain?
+
+
+INPUT FORMAT (file divide.in)
+
+Line 1: N and M.
+
+Line 2: Space separated N integers representing the capacity of the pastures starting from the the pasture 1. 
+Those integers are in the range 1 ... 100.
+
+Line 3 ... M+2: Two integers u and v (1 <= u, v <= N) representing a road between the pasture u and pasture v. 
+There can be parallel roads and even one road may connect a pasture to itself.
+
+
+OUTPUT FORMAT (file divide.out)
+
+An integer that is the possible minimum difference between two parts.
+Problem Credits: Osman Ay
+For example:
+
+Result
+2

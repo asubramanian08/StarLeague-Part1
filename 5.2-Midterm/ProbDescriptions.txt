@@ -1,0 +1,9 @@
+Modern Art 2 | USACO 2017 US Open, Gold | Depth of balanced parenthesis, stack
+Moocast | USACO 2016 Dec, Gold  | Connecting points, DSU
+Relay Race | Starleague Training Problem | Number of partially overlap intervals, Fenwick tree
+
+INSTRUCTIONS: 
+There are three problems.
+Time limit is 180 minutes.
+You can attempt only once.
+Open attempts are submitted automatically when time expires.

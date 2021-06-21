@@ -1,0 +1,4 @@
+Dividing the Barns | Starleague Training Problem | Connected Components. 
+Painting the Barns | Starleague Training Problem | Two-coloring
+DFS Edges | Starleague Training Problem | DFS on a directed graph
+Moocast | USACO-G-DEC2016 | Binary search + DFS or DSU on a graph.
