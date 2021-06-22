@@ -1,0 +1,4 @@
+Agri-Net | USACO Training Problem 3.4
+Watering Hole | USACO-G-OCT2008
+I Would Walk 500 Miles | USACO-G-OPEN2019
+Fenced In | USACO-G-FEB2016
