@@ -1,0 +1,37 @@
+Cow Decryption (Starleague Training Problem)
+
+Farmer John always encrypt the files that contain confidential information about his cows like milk production, 
+favorite grass etc. He uses a key document to decipher the encrypted files.
+
+The key document contains a list of translations of letters. Some letters may have more than one translation, and 
+others may have no translation. He repeatedly applies some of these translations to individual letters in the 
+encrypted file for decryption.
+
+Somehow Bessie the cow obtained the encrypted files and the key. She has already deciphered the encrypted file 
+word by word.
+
+Help Bessie to verify if the words in each pair match. Two words match if they have the same length and if each 
+letter of the first word can be turned into the corresponding letter of the second word by using the available 
+translations zero or more times. There are N (1 <= N <= 1000) pairs of translations in the key and M (1 <= M <= 
+10,000) words in the document.
+
+
+
+INPUT FORMAT
+
+Line 1: N and M
+
+Line 2 ... N+1: Two Space separated lowercase letters a and b. Letter a can be translated to letter b.
+
+Line N+2 ... N + M + 1: Each line contains a word pair to check. Words consist of lowercase letters and each word 
+contains at least 1 and at most 20 letters.
+
+
+
+OUTPUT FORMAT
+
+For each pair of words, print "NO" if the two words do not match, print "NOT UNIQUE" if the two words do match 
+but there can be alternative decryption, print "UNIQUE" if the two words do match and there is a unique 
+decryption.
+
+Problem Credits: Osman Ay
