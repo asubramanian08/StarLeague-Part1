@@ -32,8 +32,6 @@ Consider an example where c=3 and N=10. The constants are:
 
     a2=17   b2=8     d2=2
 
-
-
 The first mooing time is 3, given by the value of c. The total list of mooing times is:
 
      1. c=3                    ->  3       6. f2(3)=17*3/2+8  -> 33
@@ -46,47 +44,25 @@ The first mooing time is 3, given by the value of c. The total list of mooing ti
 
      5. f1(19)=4*19/3+3 -> 28      10. f1(47)=4*47/3+3 -> 65
 
-
-
 The tenth time is 65, which would be the proper answer for this set of inputs.
-
-
 
 PROBLEM NAME: baying
 
-
-
 INPUT FORMAT:
-
 * Line 1: Two space-separated integers: c and N
-
 * Line 2: Three space-separated integers: a1, b1, and d1
-
 * Line 3: Three space-separated integers: a2, b2, and d2
 
-
-
 SAMPLE INPUT (file baying.in):
-
 3 10
-
 4 3 3
-
 17 8 2
 
-
-
 OUTPUT FORMAT:
-
 * Line 1: A single line which contains a single integer which is the length of the Nth moo
 
-
-
 SAMPLE OUTPUT (file baying.out):
-
 65
-
-
 
 Problem Credits: Long Fan
 

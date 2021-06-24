@@ -8,9 +8,7 @@ The edges (arcs) of a digraph G can be classified into four categories in a DFS 
 forward edges and cross edges.
 
 Consider an edge that goes from u to v.
-
 1. If v is visited for the first time as we traverse the edge (u, v), then the edge is a tree edge.
-
 2. Else, v has already been visited: (a) If v is an ancestor of u, then edge (u, v) is a back edge. (b) Else, if 
 v is a descendant of u, then edge (u, v) is a forward edge. (c) Else, if v is neither an ancestor or descendant 
 of u, then edge (u, v) is a cross edge
@@ -19,72 +17,40 @@ Count number of the tree, back, forward and cross edges in a DFS traversal of an
 100,000 <= N) nodes, conveniently numbered 1 ... N, and M (0 <= M <= 200,000)edges. Always start with the node 1 
 and select the node with the smallest ID as a next node to be visited in your DFS traversal.
 
-
-
 INPUT FORMAT 
-
 Line 1: N and M
-
 Line 2 ... M+1: Each line denotes an edge with two integers u and v ( 1 <= u, v <= N and u != v), that is there 
 is an edge from the node u to the node v. There can be parallel edges.
 
-
-
 OUTPUT FORMAT 
-
 Line 1: An integer that is number of the tree edges.
-
 Line 2: An integer that is number of the back edges.
-
 Line 3: An integer that is number of the forward edges.
-
 Line 4: An integer that is number of the cross edges.
 
-
-
 SAMPLE INPUT (file dfsedges.in)
-
 8 11
-
 1 6
-
 6 1
-
 1 3
-
 7 1
-
 6 4
-
 6 3
-
 3 4
-
 3 7
-
 2 5
-
 2 5
-
 8 5
 
 
-
 INPUT DETAILS
-
 Look at InputGraph
 
 SAMPLE OUTPUT (file dfsedges.out)
-
 5
-
 2
-
 1
-
 3
-
-
 
 OUTPUT DETAILS
 Look at output graph

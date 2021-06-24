@@ -26,13 +26,11 @@ the minimum amount of energy required for Bessie and Elsie to reach
 the barn.
 
 INPUT: (file piggyback.in)
-
 The first line of input contains the positive integers B, E, P, N, and
 M.  All of these are at most 40,000.  B, E, and P are described above.
 N is the number of fields in the farm (numbered 1..N, where N >= 3),
 and M is the number of connections between fields.  Bessie and Elsie
 start in fields 1 and 2, respectively.  The barn resides in field N.
-
 The next M lines in the input each describe a connection between a
 pair of different fields, specified by the integer indices of the two
 fields.  Connections are bi-directional.  It is always possible to
@@ -40,7 +38,6 @@ travel from field 1 to field N, and field 2 to field N, along a series
 of such connections.  
 
 SAMPLE INPUT:
-
 4 4 5 8 8
 1 4
 2 3
@@ -51,15 +48,13 @@ SAMPLE INPUT:
 6 8
 7 8
 
-
 OUTPUT: (file piggyback.out)
-
 A single integer specifying the minimum amount of energy Bessie and
 Elsie collectively need to spend to reach the barn.  In the example
 shown here, Bessie travels from 1 to 4 and Elsie travels from 2 to 3
 to 4.  Then, they travel together from 4 to 7 to 8.
 
 SAMPLE OUTPUT:
-
 22
+
 Problem Credits: Brian Dean

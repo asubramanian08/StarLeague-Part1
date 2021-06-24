@@ -11,16 +11,13 @@ A's power being larger than that of cow B).  Fortunately, cows can relay message
 to one-another along a path consisting of several hops, so it is not necessary
 for every cow to be able to transmit directly to every other cow.
 
-
 Due to the asymmetrical nature of the walkie-talkie transmission, broadcasts
 from some cows may be more effective than from other cows in their ability to
 reach large numbers of recipients (taking relaying into account).  Please  help
 the cows determine the maximum number of cows that can be reached by a broadcast
 originating from a single cow.
 
-
 INPUT FORMAT (file moocast.in):
-
 
 The first line of input contains NN.
 
@@ -31,27 +28,20 @@ walkie-talkie held by this cow.
 
 
 OUTPUT FORMAT (file moocast.out):
-
-
 Write a single line of output containing the maximum number of cows a broadcast
 from a single cow can reach.  The originating cow is included in this number.
 
-
 SAMPLE INPUT:
-
 4
 1 3 5
 5 4 3
 7 2 1
 6 1 1
+
 SAMPLE OUTPUT:
-
- 
 3
-
 
 In the example above, a broadcast from cow 1 can reach 3 total cows, including
 cow 1.
-
 
 SOURCE: http://usaco.org/index.php?page=viewproblem2&cpid=668

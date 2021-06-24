@@ -11,20 +11,14 @@ FJ wants to choose a and b so that the cows appearing in the four resulting regi
 with no region containing too many cows. Letting M be the maximum number of cows appearing in one of the four 
 regions, FJ wants to make M as small as possible. Please help him determine this smallest possible value for M.
 
-
 INPUT FORMAT (file balancing.in):
-
 The first line of the input contains a single integer, N. The next N lines each contain the location of a single 
 cow, specifying its x and y coordinates.
 
-
 OUTPUT FORMAT (file balancing.out):
-
 You should output the smallest possible value of M that FJ can achieve by positioning his fences optimally.
 
-
 SAMPLE INPUT:
-
 7
 7 3
 5 5
@@ -34,10 +28,7 @@ SAMPLE INPUT:
 5 3
 9 1
 
-
 SAMPLE OUTPUT:
-
 2
-
 
 Problem credits: Brian Dean

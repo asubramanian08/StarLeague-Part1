@@ -1,0 +1,43 @@
+Relay Race (Starleague Training Problem)
+
+Farmer John knows that healthy cows are more efficient. For this reason, he organizes different sports activities 
+for his cows. There are (1 <= N <= 100,000) cows in the farm. For today's activity cows are having a relay race. 
+Of course, the rules of this race are arranged according to the cows.
+
+The competition is held on an L (1 <= L <= 200,000) length running track. Each cow participates in the race in a 
+specific part of the track. Each cow waits at the starting point of its part. Any position can be either start or 
+ending position of a single cow.
+
+Any of the cows may start the race running with carrying the baton. The cow she carries the baton gives it to a 
+cow whose starting point is between her starting point and her ending point, and whose end point is after her end 
+point. 
+
+The contest comes to an end when a cow cannot find another cow to give her the baton.
+
+FJ wants to know at most how many pairs of cows can pass the baton one to another among all cows?
+
+INPUT FORMAT
+Line 1: N
+Line 2 ... N+1: Each line i+1 describes starting and ending points for cow i with two integers ai and bi (ai < bi 
+and 1 <= ai, bi <= L).
+
+OUTPUT FORMAT
+A single integer describing number of pairs of cows, modulo 10^9 + 7,  one may pass the baton to the other one.
+
+SAMPLE INPUT:
+4
+3 20
+8 30
+4 9
+5 10
+
+SAMPLE OUTPUT:
+4
+
+OUTPUT 1 DETAILS
+(3,20) and (8, 30)
+(4, 9) and (5, 10)
+(4, 9) and (8, 30)
+(5, 10) and (8, 30)
+
+Problem Credits: Osman Ay

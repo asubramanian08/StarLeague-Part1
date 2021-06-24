@@ -33,15 +33,12 @@ From question 2, we then know that trough 2 is empty.
 PROBLEM NAME: trough
 
 INPUT FORMAT:
-
 * Line 1: Two space-separated integers: N and M
-
 * Lines 2..M+1: A subset of troughs, specified as a sequence of
         contiguous N 0's and 1's, followed by a single integer that is
         the number of troughs in the specified subset that are filled.
 
 SAMPLE INPUT:
-
 4 4
 1000 1
 0110 1
@@ -49,22 +46,15 @@ SAMPLE INPUT:
 0011 1
 
 OUTPUT FORMAT:
-
 * Line 1: A single line with:
-
   * The string "IMPOSSIBLE" if there is no possible set of filled troughs 
     compatible with Farmer John's answers.
-
   * The string "NOT UNIQUE" if Bessie cannot determine from the given data 
     exactly what troughs are filled.
-
   * Otherwise, a sequence of contiguous N 0's and 1's specifying
     which troughs are filled.
 
 SAMPLE OUTPUT:
-
 1010
-
-
 
 SOURCE: http://tjsct.wikidot.com/usaco-dec10-silver

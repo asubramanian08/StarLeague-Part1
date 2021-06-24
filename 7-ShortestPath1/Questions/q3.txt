@@ -42,18 +42,13 @@ POINTS: 12343
 PROBLEM NAME: pwrfail
 
 INPUT FORMAT:
-
 * Line 1: Two space-separated integers: N and W
-
 * Line 2: A single real number: M
-
 * Lines 3..N+2: Each line contains two space-separated integers: x_i
         and y_i
-
 * Lines N+3..N+2+W: Two space-separated integers: Pi and Pj
 
 SAMPLE INPUT (file pwrfail.in):
-
 9 3
 2.0
 0 0
@@ -70,11 +65,9 @@ SAMPLE INPUT (file pwrfail.in):
 3 4
 
 INPUT DETAILS:
-
 Just as in the diagram above.
 
 OUTPUT FORMAT:
-
 * Line 1: A single integer on a single line.  If restoring connection
         is impossible, output -1. Otherwise, output a single integer
         that is 1000 times the total minimum cost to restore
@@ -82,10 +75,9 @@ OUTPUT FORMAT:
         resulting product.
 
 SAMPLE OUTPUT (file pwrfail.out):
-
 2828
 
 OUTPUT DETAILS:
-
 As above.
+
 Problem Credits: Rob Kolstad

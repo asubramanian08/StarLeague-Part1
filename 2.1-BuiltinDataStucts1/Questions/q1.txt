@@ -54,9 +54,7 @@ Warning: The answer will not always fit in 32 bits.
 PROBLEM NAME: alake
 
 INPUT FORMAT:
-
 * Line 1: A single integer: N
-
 * Lines 2..N+1: Line i+1 describes level i with two space-separated
         integers: W_i and H_i
 
@@ -67,24 +65,20 @@ SAMPLE INPUT:
 6 4
 
 INPUT DETAILS:
-
 Three levels just as in the example above.  Water will fill the
 first level because it is the lowest.
 
 OUTPUT FORMAT:
-
 * Lines 1..N: Line i contains a single integer that is the number of
         minutes that since sunrise when level #i is covered by water
         of height 1.
 
 SAMPLE OUTPUT:
-
 4
 50
 26
 
 OUTPUT DETAILS:
-
 As in the illustrations above.
 
 Problem Credits: Matt McCutchen

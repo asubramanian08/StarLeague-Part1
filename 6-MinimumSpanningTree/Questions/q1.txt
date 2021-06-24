@@ -19,9 +19,7 @@ The distance between any two farms will not exceed 100,000.
 PROGRAM NAME: agrinet
 
 INPUT FORMAT:
-
 * Line 1: The number of farms, N (3 <= N <= 100).
-
 * Line 2..end: The subsequent lines contain the N x N connectivity 
 matrix, where each element shows the distance from on farm to 
 another. Logically, they are N lines of N space-separated integers. 
@@ -31,7 +29,6 @@ since the distance from farm i to itself is not interesting for
 this problem.
 
 SAMPLE INPUT:
-
 4
 0 4 9 21
 4 0 8 17
@@ -39,11 +36,9 @@ SAMPLE INPUT:
 21 17 16 0
 
 OUTPUT FORMAT:
-
 The single output contains the integer length that is the sum of 
 the minimum length of fiber required to connect the entire set of 
 farms.
 
 SAMPLE OUTPUT:
-
 28

@@ -22,41 +22,23 @@ Note that Farmer John has a very large herd of cows, so although some of them ar
 changing their milk production, there are always plenty of other cows around whose milk output level remains at G 
 gallons.
 
-
-
 INPUT FORMAT (file measurement.in):
-
 The first line of input contains the number of measurements N that Farmer John makes (1≤N≤100,000), followed by G. 
 Each of the next N lines contains one measurement, in the format above, specifying a day (an integer in the range 
 1…10^6), the integer ID of a cow (in the range 1…10^9), and the change in her milk output since it was last 
 measured (a nonzero integer). Each cow's milk output will always be in the range 0…10^9.
 
-
-
 OUTPUT FORMAT (file measurement.out):
-
 Please output the number of days on which Farmer John needs to adjust his motivational display.
 
-
-
 SAMPLE INPUT:
-
 4 10
-
 7 3 +3
-
 4 2 -1
-
 9 3 -1
-
 1 1 +2
 
-
-
 SAMPLE OUTPUT:
-
 3
-
-
 
 Problem credits: Brian Dean

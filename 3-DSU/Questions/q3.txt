@@ -9,21 +9,17 @@ the cows is selected from team Barley and the other cow is selected from team Oa
 Each cow has a unique ID between 1 and 1000,000,000. The list of all the games is available. Calculate at most 
 how many cows can be member of the larger team.
 
-
 INPUT FORMAT (file chess.in)
-
 Line 1: N
-
 Line 2 to N+1: Two integers representing ID's of two cows for one game. One cow may play several games and also 
 the same pair of cows may play several games.
 
-
 OUTPUT FORMAT (file chess.out)
-
 An integer that is the possible maximum number of cows in the larger team.
 
-Problem Credits: Osman Ay
 For example:
 
 Result
 5
+
+Problem Credits: Osman Ay

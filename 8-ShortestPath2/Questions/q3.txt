@@ -15,21 +15,13 @@ letter of the first word can be turned into the corresponding letter of the seco
 translations zero or more times. There are N (1 <= N <= 1000) pairs of translations in the key and M (1 <= M <= 
 10,000) words in the document.
 
-
-
 INPUT FORMAT
-
 Line 1: N and M
-
 Line 2 ... N+1: Two Space separated lowercase letters a and b. Letter a can be translated to letter b.
-
 Line N+2 ... N + M + 1: Each line contains a word pair to check. Words consist of lowercase letters and each word 
 contains at least 1 and at most 20 letters.
 
-
-
 OUTPUT FORMAT
-
 For each pair of words, print "NO" if the two words do not match, print "NOT UNIQUE" if the two words do match 
 but there can be alternative decryption, print "UNIQUE" if the two words do match and there is a unique 
 decryption.

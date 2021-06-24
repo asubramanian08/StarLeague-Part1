@@ -10,18 +10,15 @@ Farmer John would like to determine the minimum spiciness his single-course meal
 must have a total flavor of at least M (1≤M≤10^18).
 
 INPUT FORMAT (file hayfeast.in):
-
 The first line contains the integers N and M, the number of haybales and the minimum total flavor the meal must 
 have, respectively. The next N lines describe the N haybales with two integers per line, first the flavor F and 
 then the spiciness S.
 
 OUTPUT FORMAT (file hayfeast.out):
-
 Please output the minimum spiciness in a single course meal that satisfies the minimum flavor requirement. There 
 will always be at least one single-course meal that satisfies the flavor requirement.
 
 SAMPLE INPUT:
-
 5 10
 4 10
 6 15
@@ -30,7 +27,6 @@ SAMPLE INPUT:
 3 6
 
 SAMPLE OUTPUT:
-
 9
 
 Problem credits: Christopher Chang and Allen Chen

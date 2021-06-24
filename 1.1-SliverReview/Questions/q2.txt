@@ -35,15 +35,11 @@ Here is a set of five queries along with the resulting answer:
 PROBLEM NAME: mnotes
 
 INPUT FORMAT:
-
 * Line 1: Two space-separated integers: N and Q
-
 * Lines 2..N+1: Line i+1 contains the single integer: B_i
-
 * Lines N+2..N+Q+1: Line N+i+1 contains a single integer: T_i
 
 SAMPLE INPUT (file mnotes.in):
-
 3 5
 2
 1
@@ -55,12 +51,10 @@ SAMPLE INPUT (file mnotes.in):
 1
 
 OUTPUT FORMAT:
-
 * Lines 1..Q: For each query, print a single integer that is the index
         of the note that the cows should be playing.
 
 SAMPLE OUTPUT (file mnotes.out):
-
 2
 3
 3

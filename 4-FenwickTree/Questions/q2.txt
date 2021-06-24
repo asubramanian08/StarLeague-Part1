@@ -15,7 +15,6 @@ The first line of input contains N. The next N lines contain h1…hN, each a non
 1,000,000,000.
 
 OUTPUT FORMAT (file bphoto.out):
-
 Please output a count of the number of cows that are unbalanced.
 
 SAMPLE INPUT:

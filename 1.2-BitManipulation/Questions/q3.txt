@@ -17,7 +17,6 @@ INPUT FORMAT
 cow of social hierarchy j-1.
 
 SAMPLE INPUT (file cowxor2.in)
-
 5
 1
 0

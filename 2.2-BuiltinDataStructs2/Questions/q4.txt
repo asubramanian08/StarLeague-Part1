@@ -3,16 +3,11 @@ Maximum Area Submatrix 2 (Starleague Training Problem)
 Calculate the area of the maximum rectangle that consists of the same letter in a letter matrix. The matrix has 
 N rows (1 <= N <= 5000) and M (1 <= M <= 100)columns and contains only the lowercase English alphabet letters.
 
-
 INPUT FORMAT
-
 Line 1: N and M 
-
 Line 2 ... N+1: Each line represent a row of the matrix with a string of lowercase letters.
 
-
 OUTPUT FORMAT
-
 An integer that is the area of the largest sub-matrix that contains only one type of letter.
 Problem Credits: Osman Ay
 For example:

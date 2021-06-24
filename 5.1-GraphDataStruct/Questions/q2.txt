@@ -9,18 +9,15 @@ colors came to the fore: light green and dark green.
 FJ wonders if it is possible to paint all barns using only light green and dark green colors so that neighboring 
 barns are not the same color.
 
-
 INPUT FORMAT (file paintbarns.in)
-
 Line 1: N and M
-
 Line 2 ... M+1: Two integers u and v. There is a road between the barn u and barn v.
 
-
 OUTPUT FORMAT (file paintbarns.out)
-
 One word: "YES" or "NO".
+
 Problem Credits: Osman Ay
+
 For example:
 
 Result

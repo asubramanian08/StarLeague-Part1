@@ -9,17 +9,12 @@ two parts.
 
 What is the minimum difference Farmer John can obtain?
 
-
 INPUT FORMAT (file divide.in)
-
 Line 1: N and M.
-
 Line 2: Space separated N integers representing the capacity of the pastures starting from the the pasture 1. 
 Those integers are in the range 1 ... 100.
-
 Line 3 ... M+2: Two integers u and v (1 <= u, v <= N) representing a road between the pasture u and pasture v. 
 There can be parallel roads and even one road may connect a pasture to itself.
-
 
 OUTPUT FORMAT (file divide.out)
 

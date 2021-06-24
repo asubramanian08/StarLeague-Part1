@@ -29,18 +29,14 @@ travel to?  Print -1 if there is no limit to this amount.
 PROBLEM NAME: jobhunt
 
 INPUT FORMAT:
-
 * Line 1: Five space-separated integers: D, P, C, F, and S
-
 * Lines 2..P+1: Line i+1 contains two space-separated integers that
         name a one-way path from one city to another: A_i and B_i
-
 * Lines P+2..P+F+1: Line P+i+1 contains three space-separated integers
         that name a one-way jet flight from one city to another and
         the price for that flight: J_i, K_i, and T_i
 
 SAMPLE INPUT:
-
 100 3 5 2 1
 1 5
 2 3
@@ -49,22 +45,18 @@ SAMPLE INPUT:
 2 5 120
 
 INPUT DETAILS:
-
 This world has five cities, three paths and two jet routes. Bessie
 starts out in city 1, and she can only make 100 dollars in each
 city before moving on.
 
 OUTPUT FORMAT:
-
 * Line 1: A single integer representing the most money she can make
         while following the law.
 
 SAMPLE OUTPUT:
-
 250
 
 OUTPUT DETAILS:
-
 Bessie can travel from city 1 to city 5 to city 2 to city 3, and
 make a total of 4*100 - 150 = 250 dollars.
 Problem Credits: Haitao Mao

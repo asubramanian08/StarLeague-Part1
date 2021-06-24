@@ -3,20 +3,14 @@ Maximum Area Submatrix 1 (Starleague Training Problem)
 Calculate the area of the maximum rectangle that contains only 1s in a binary matrix. The matrix has N rows 
 (1 <= N <= 5000) and M (1 <= M <= 500) columns.
 
-
 INPUT FORMAT (file submatrix1.in)
-
 Line 1: N and M
-
 Line 2 ... N+1: Each line represents a line of the binary matrix with M space separated 0s and 1s.
 
-
 OUTPUT FORMAT (file submatrix1.out)
-
 An integer that is the area of the largest binary sub-matrix with all 1s.
 Problem Credits: Osman Ay
 For example:
 
 Result
 6
-

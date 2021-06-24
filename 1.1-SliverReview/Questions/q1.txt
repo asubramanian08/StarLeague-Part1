@@ -75,14 +75,11 @@ The system will provide extra test case feedback for your first 50
 submissions.
 
 INPUT FORMAT:
-
 * Line 1: A single integer: N
-
 * Lines 2..N + 1: Line i+1 describes pipe i with two letters and an
         integer, all space-separated: a_i, b_i, and F_i
 
 SAMPLE INPUT (file flow.in):
-
 5
 A B 3
 B C 3
@@ -91,10 +88,8 @@ D Z 4
 B Z 6
 
 OUTPUT FORMAT:
-
 * Line 1: A single integer that the maximum flow from the well ('A')
         to the barn ('Z')
 
 SAMPLE OUTPUT (file flow.out):
-
 3

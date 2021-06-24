@@ -24,6 +24,7 @@ and flow rate are both positive integers in the range 1...1000.
 OUTPUT FORMAT (file pump.out):
 Please print 10^6 times the optimal solution value, truncated to an integer (that is, rounded down to the next-
 lowest integer if this number is not itself an integer).
+
 SAMPLE INPUT:
 3 2
 2 1 2 4

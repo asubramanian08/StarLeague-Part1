@@ -53,16 +53,12 @@ pasture 10.
 PROBLEM NAME: bestspot
 
 INPUT FORMAT:
-
 * Line 1: Three space-separated integers: P, F, and C
-
 * Lines 2..F+1: Line i+2 contains a single integer: F_i
-
 * Lines F+2..C+F+1: Line i+F+1 describes cowpath i with three
         space-separated integers: a_i, b_i, and T_i
 
 SAMPLE INPUT:
-
 13 6 15
 11
 13
@@ -87,20 +83,17 @@ SAMPLE INPUT:
 7 8 7
 
 INPUT DETAILS:
-
 As the problem statement
 
 OUTPUT FORMAT:
-
 * Line 1: A single line with a single integer that is the best pasture
         in which to sleep. If more than one pasture is best, choose
         the smallest one.
 
 SAMPLE OUTPUT:
-
 10
 
 OUTPUT DETAILS:
-
 As the problem statement.
+
 Problem Credits: Rob Kolstad
