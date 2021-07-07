@@ -1,0 +1,9 @@
+Hospital and Fire Station | Starleague Training Problem | Floyd-Warshall
+New Roads | Starleague Training Problem | Manhattan Distances MST, Prims O(N*N)
+Bovine Alliance | USACO 2012 Jan, Gold | Components. Edge direction in a graph.
+
+INSTRUCTIONS
+There are three problems.
+Time limit is 180 minutes.
+You can attempt only once.
+Open attempts are submitted automatically when time expires.

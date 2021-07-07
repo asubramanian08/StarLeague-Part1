@@ -1,0 +1,38 @@
+Medical Kits (Starleague Training Problem)
+
+Farmer John pays much more attention to the health of cows during pandemic days. In any emergency, he wants an 
+intervention as soon as possible. For this, FJ plans to have an emergency medical kit in every barn on the farm 
+or in a neighboring barn.
+
+FJ has a large farm with N barns (1 <= N <= 10^5), K (1 <= K <= N) of which are already has emergency medical kit. 
+Barns are conveniently numbered 1 ... N and they are connected by a set of N-1 bidirectional trails. It is 
+guaranteed that the connections between the N barns do not form any cycles.
+
+Help FJ calculate how many additional emergency medical kits he needs.
+
+INPUT FORMAT
+Line 1: N and K
+Line 2: Space separated K integers denoting the barns that already have emergency medical kits.
+Lines 3 ... N+1: Each line contains two integers u and v (1 <= u, v <= N and , u != v) describing a path directly 
+connecting barns u and v.
+
+OUTPUT FORMAT
+A single integer denoting the minimum number of emergency additional kits required.
+
+SAMPLE INPUT (file kits.in)
+6 1
+1
+1 2
+3 1
+3 4
+5 6
+5 3
+
+SAMPLE OUTPUT (file kits.out)
+2
+
+OUTPUT DETAIL
+Any of the following pairs of nodes are the places of the two additional kits:
+(4,5), (4,6) or (3,5).
+
+Problem Credits: Osman Ay

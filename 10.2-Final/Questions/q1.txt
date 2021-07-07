@@ -1,0 +1,51 @@
+Hospital and Fire Station (Starleague Training Problem)
+
+Farmer John's cows often get sick. FJ decided to build a hospital on the farm to give his cows a better health 
+service. While entering the construction business, he also wants to build a fire station. It is necessary to be 
+prepared for a fire that can occur at any moment.
+
+There are N (1 <= N <= 500) barns numbered from 1 to N on the farm. Barns are connected with M (0 <= M <= 10000) 
+bidirectional roads. There can be parallel roads and one road can connect a barn to itself. Some barns may not be 
+reachable from some other barns.
+
+The hospital and fire station will be built in a place with existing barns. The two can be in the same place or 
+in different places.
+
+Both the hospital and the fire station should serve as many barns as possible. In addition this condition, when 
+choosing a hospital location, the sum of the shortest paths from other barns to the hospital should be minimum. 
+When choosing a fire station, the longest of the shortest paths to the fire station should be the minimum.
+
+Calculate the list of barns where the hospital can be constructed and the list of barns where the fire station 
+can be constructed.
+
+INPUT FORMAT (file hosfire.in)
+Line 1: N and M
+Line 2 ... M+1: Three integers representing a road. u, v and d. There is a bidirectional road between the barn u 
+and barn v with the distance d (1 <= d <= 10,000)
+
+Sample Input:
+7 8
+1 2 10
+2 3 5
+3 4 5
+4 3 10
+5 3 5
+5 5 15
+6 7 10
+7 6 1
+
+OUTPUT FORMAT (file hosfire.out)
+Line 1: List of barns where the hospital can be constructed. This list should be printed in increasing order.
+Line 2: List of barns where the fire station can be constructed. This list should be printed in increasing order.
+
+Sample Output:
+3 
+2 
+
+Problem Credits: Osman Ay
+
+For example:
+
+Result
+3 
+2 
