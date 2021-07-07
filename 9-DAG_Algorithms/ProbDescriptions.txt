@@ -1,4 +1,4 @@
-Milk Scheduling | USACO 2013 Feb, Silver
-Cow Contest | USACO 2008 Jan Silver
-Timeline | USACO 2020 Feb, Gold
-Dizzy Cows | USACO 2009 Dec, Gold
+Milk Scheduling | USACO-S-FEB2013
+Cow Contest | USACO-S-JAN2008
+Timeline | USACO-G-FEB2020
+Dizzy Cows | USACO-G-DEC2009

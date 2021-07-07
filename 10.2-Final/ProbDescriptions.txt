@@ -1,6 +1,6 @@
 Hospital and Fire Station | Starleague Training Problem | Floyd-Warshall
 New Roads | Starleague Training Problem | Manhattan Distances MST, Prims O(N*N)
-Bovine Alliance | USACO 2012 Jan, Gold | Components. Edge direction in a graph.
+Bovine Alliance | USACO-G-JAN2012 | Components. Edge direction in a graph.
 
 INSTRUCTIONS
 There are three problems.

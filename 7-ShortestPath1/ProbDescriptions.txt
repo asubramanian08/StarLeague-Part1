@@ -1,4 +1,4 @@
-Piggy Back | USACO 2014 Dec, Silver | BFS
-Roadblock | USACO 2014 Feb, Silver | Dijkstra
-Power Failure | USACO 2008 Oct, Gold | Dijkstra
-Milk Pumping | USACO 2019 Dec, Gold | BFS or Dijkstra
+Piggy Back | USACO-S-DEC2014 | BFS
+Roadblock | USACO-S-FEB2014 | Dijkstra
+Power Failure | USACO-G-OCT2008 | Dijkstra
+Milk Pumping | USACO-G-DEC2019 | BFS or Dijkstra

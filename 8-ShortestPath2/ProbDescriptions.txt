@@ -1,4 +1,4 @@
-Job Hunt | USACO 2009 Nov, Silver
-Cow Party  | USACO 2007 Feb, Silver
+Job Hunt | USACO-S-NOV2009
+Cow Party  | USACO-S-FEB2007
 Cow Decryption | Starleague Training Problem
-Best Spot | USACO Jan 2009, Silver
+Best Spot | USACO-S-JAN2009

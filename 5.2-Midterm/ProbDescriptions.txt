@@ -1,5 +1,5 @@
-Modern Art 2 | USACO 2017 US Open, Gold | Depth of balanced parenthesis, stack
-Moocast | USACO 2016 Dec, Gold  | Connecting points, DSU
+Modern Art 2 | USACO-G-OPEN2017 | Depth of balanced parenthesis, stack
+Moocast | USACO-G-DEC2016 | Connecting points, DSU
 Relay Race | Starleague Training Problem | Number of partially overlap intervals, Fenwick tree
 
 INSTRUCTIONS: 

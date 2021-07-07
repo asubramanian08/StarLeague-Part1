@@ -1,4 +1,4 @@
 American Heritage | USACO Training Problem 3.4 | Divide and Conquer on a Tree
 Medical Kits | Starleague Training Problem | Minimum Vertex Cover on a Tree
-Cow at Large | USACO 2018 Jan, Gold | Depths and the Min distances to leaves
-Shortcut | USACO 2019 Jan, Gold | Shortest Paths Tree
+Cow at Large | USACO-G-JAN2018 | Depths and the Min distances to leaves
+Shortcut | USACO-G-JAN2019 | Shortest Paths Tree

@@ -1,4 +1,4 @@
-Milk Measurement | S-DEC2017 | Simulation with map and set
-Haybale Feast | G-DEC2017 | Two pointers + multiset (max value)
-Moon Mooing  | G-MAR2009 | Next smaller element. O(NlgN) with PQ. O(N) with two pointers.
+Milk Measurement | USACO-S-DEC2017 | Simulation with map and set
+Haybale Feast | USACO-G-DEC2017 | Two pointers + multiset (max value)
+Moon Mooing  | USACO-G-MAR2009 | Next smaller element. O(NlgN) with PQ. O(N) with two pointers.
 Maximum Area Submatrix 2 | Starleague Training | Largest rectangle under histogram.
