@@ -6,7 +6,11 @@ towards the field, and every evening they all cross again as they leave the fiel
 
 As we know, cows are creatures of habit, and they each cross the road the same way every day. Each cow crosses 
 into the field at a different point from where she crosses out of the field, and all of these crossing points are 
-distinct from each-other. Farmer John owns N cows, conveniently identified with the integer IDs 1…N, so there are precisely 2N crossing points around the road. Farmer John records these crossing points concisely by scanning around the circle clockwise, writing down the ID of the cow for each crossing point, ultimately forming a sequence with 2N numbers in which each number appears exactly twice. He does not record which crossing points are entry points and which are exit points.
+distinct from each-other. Farmer John owns N cows, conveniently identified with the integer IDs 1…N, so there are
+precisely 2N crossing points around the road. Farmer John records these crossing points concisely by scanning 
+around the circle clockwise, writing down the ID of the cow for each crossing point, ultimately forming a 
+sequence with 2N numbers in which each number appears exactly twice. He does not record which crossing points are 
+entry points and which are exit points.
 
 Looking at his map of crossing points, Farmer John is curious how many times various pairs of cows might cross 
 paths during the day. He calls a pair of cows (a,b) a "crossing" pair if cow a's path from entry to exit must 
