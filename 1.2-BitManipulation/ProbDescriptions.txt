@@ -1,5 +1,5 @@
 The Trough Game | USACO-S-DEC2010
-Raucous Rockers | USACO Training Problem 3.4
-Cow XOR | USACO Training Problem 6.1
+Raucous Rockers | USACO Training Problem 3.4.4
+Cow XOR | USACO Training Problem 6.1.1
 
 Q3 looked at solution
